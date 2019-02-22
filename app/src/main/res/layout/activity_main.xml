@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.server4.idleoppsapp.MainActivity"
+    android:background="#c9c9c9">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/background"
+        android:background="@drawable/bg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PROPELIT"
+        android:id="@+id/title"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="IDLEOPPS"
+        android:id="@+id/subtitle"
+        android:textSize="30dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/loginBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/subtitle"
+        android:layout_alignStart="@+id/subtitle"
+        android:layout_alignRight="@+id/subtitle"
+        android:layout_alignEnd="@+id/subtitle"
+        android:textSize="20dp"
+        android:background="#8598b0"
+        android:textColor="#ffffff" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:id="@+id/registerBtn"
+        android:textSize="20dp"
+        android:background="#8598b0"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/loginBtn"
+        android:layout_alignLeft="@+id/loginBtn"
+        android:layout_alignStart="@+id/loginBtn"
+        android:layout_marginTop="44dp"
+        android:layout_alignRight="@+id/loginBtn"
+        android:layout_alignEnd="@+id/loginBtn" />
+
+</RelativeLayout>
