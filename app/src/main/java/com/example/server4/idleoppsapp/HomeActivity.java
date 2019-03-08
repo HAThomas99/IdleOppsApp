@@ -3,8 +3,15 @@ package com.example.server4.idleoppsapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class HomeActivity extends AppCompatActivity {
+/**
+ *
+ */
 
+public class HomeActivity extends AppCompatActivity {
+    /**
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
