@@ -90,19 +90,6 @@
         android:textColor="#878787"
         android:hint="Password" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Don&apos;t have an account?"
-        android:id="@+id/textView4"
-        android:textSize="15dp"
-        android:textColor="#000000"
-        android:paddingBottom="8dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp" />
-
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -129,5 +116,16 @@
         android:layout_below="@+id/title"
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="Don&apos;t have an account?"
+        android:id="@+id/LtoR"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:background="#d3d3d3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
